@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+} */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: transparent;
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+option {
+  font-weight: normal;
+  display: inline-block;
+  min-height: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+address {
+  display: block;
+  font-style: normal;
+}
